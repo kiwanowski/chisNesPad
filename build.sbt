@@ -12,8 +12,8 @@ lazy val root = (project in file("."))
     name := "chisNesPad",
     externalResolvers += "fpgamacro packages" at "https://maven.pkg.github.com/Martoni/fpgamacro",
     libraryDependencies ++= Seq(
-      "edu.berkeley.cs" %% "chisel3" % "3.5.1",
-      "edu.berkeley.cs" %% "chiseltest" % "0.5.1" % "test",
+      "edu.berkeley.cs" %% "chisel3" % "3.5.4",
+      "edu.berkeley.cs" %% "chiseltest" % "0.5.4" % "test",
       "Martoni" %% "fpgamacro" % "0.2.1-SNAPSHOT",
     ),
     scalacOptions ++= Seq(
